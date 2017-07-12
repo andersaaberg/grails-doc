@@ -52,7 +52,7 @@ class QuartzGrailsPlugin extends Plugin {
 }
 ----
 
-In addition you should remove the `version` property from the descriptor as this is now defined in `build.gradle`.
+In addition you should remove the `version` and `groupId` properties from the descriptor as this is now defined in `build.gradle` as `version` and `group` respectively.
 
 
 ==== Step 4 - Update the Gradle build with required dependencies
